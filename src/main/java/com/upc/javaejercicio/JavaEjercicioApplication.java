@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-@CrossOrigin(origins = "javaejercicio.azurewebsites.net")
 public class JavaEjercicioApplication {
 
     @GetMapping("/prueba")
